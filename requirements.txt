@@ -43,3 +43,6 @@ rich
 tiktoken
 
 langchain-nvidia-ai-endpoints
+
+
+streamlit
