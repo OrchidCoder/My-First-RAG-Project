@@ -111,6 +111,38 @@ def query_rag(question: str):
     print("="*60)
     return response
 
+
 if __name__ == "__main__":
-    test_question = "What are the normal equations for fitting a straight line using the principle of least squares?"
-    query_rag(test_question)
+
+    print("\n" + "=" * 60)
+    print("       MY FIRST PDF-BASED RAG APPLICATION")
+    print("       Interactive Question & Answer System")
+    print("=" * 60)
+
+    print("\nYou can ask questions about your PDF document.")
+    print("Type 'exit' to stop the application.\n")
+
+    while True:
+        question = input("Ask your question: ").strip()
+
+        if question.lower() in ["exit", "quit", "stop"]:
+            print("\nThank you for using My First RAG Project!")
+            break
+
+        if not question:
+            print("Please enter a valid question.\n")
+            continue
+
+        try:
+            print("\nSearching your document...")
+            answer = query_rag(question)
+
+            print("\n" + "=" * 60)
+            print("FINAL ANSWER")
+            print("=" * 60)
+            print(answer)
+            print("=" * 60 + "\n")
+
+        except Exception as e:
+            print(f"\nError while answering: {e}\n")
+
