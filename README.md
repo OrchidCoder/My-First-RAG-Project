@@ -1,10 +1,36 @@
 # 🚀 My First RAG Project
 
+## 🚀 Live Application
+**Try the application here:**
+
+[Open My First RAG Application](https://my-first-rag-project-7dvsunuwyaypxlvbxjpvb3.streamlit.app/)
+
+
 ### Retrieval-Augmented Generation using LangChain, Qdrant, FastEmbed and NVIDIA Nemotron
 
 This is my first hands-on **Retrieval-Augmented Generation (RAG)** project. It allows users to ask questions about PDF documents and receive context-aware answers using an AI language model.
 
 I built this project to understand how document processing, vector databases, embeddings, semantic search, and Large Language Models work together in a real-world AI application.
+
+
+## Project Description
+
+A PDF-based Retrieval-Augmented Generation (RAG) application that allows users to upload PDF documents and ask questions using NVIDIA Nemotron.
+
+## Features
+
+- Upload custom PDF documents.
+- Use the default STATS.pdf document.
+- Extract and process PDF text.
+- Generate embeddings using FastEmbed.
+- Store and retrieve document vectors using Qdrant.
+- Generate PDF-grounded answers using NVIDIA Nemotron.
+- Display detailed answers and simple summaries.
+
+## Technology Stack
+
+Python | Streamlit | LangChain | Qdrant | FastEmbed | NVIDIA Nemotron
+
 
 ## 🎯 Project Overview
 
