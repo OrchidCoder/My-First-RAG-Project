@@ -1,0 +1,19 @@
+
+# API secrets
+.env
+.env.*
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# PDF documents - keep private
+document_loader/*.pdf
+
+# IDE
+.vscode/
+
+# Logs
+*.log
